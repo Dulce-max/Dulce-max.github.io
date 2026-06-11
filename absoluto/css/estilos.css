@@ -1,0 +1,42 @@
+@font-face{
+	font-family: "fuente1";
+	src: url(../lexend/static/Lexend-Extrabold.ttf);
+}
+
+body{
+	width: 90%;
+	margin: 50px auto;
+}
+
+h1{
+	font-family: "fuente1", sans-serif;
+    font-size: 3rem;
+}
+
+section{
+	border: solid 2px red;
+	width: 70%;
+	height: 400px;
+	margin: 50px auto;
+  }
+
+  article{
+  	width: 90%;
+  	height: 380px;
+  	margin: 10px auto;
+  }
+
+  img{
+  	width: 56%;
+  	height: 380px;
+  	position: absolute;
+  	z-index: 1;
+  }
+
+  p{
+  	position: absolute;
+  	z-index: 2;
+  	font-family: "fuente1", sans-serif;
+  	font-size: 2rem;
+  	color: red;
+  }

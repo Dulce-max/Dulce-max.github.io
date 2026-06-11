@@ -1,0 +1,36 @@
+@font-face{
+	font-family: "fuente1";
+	src: url(../font/Bitcount_Prop_Double_Ink/BitcountPropDoubleInk-VariableFont_CRS);
+}
+
+@font-face{
+	font-family: "fuentes2";
+	src: url(../font/Lexend/Lexend-VariableFont_wght.ttf);
+}
+
+@font-face{
+	font-family: "fuente3";
+	src: url(../font/Poiret_One/PoiretOne-Regular.ttf);
+}
+
+@font-face{
+	font-family: "fuente4";
+	src: url(../font/UnifrakturMaguntia/UnifrakturMaguntia-Regular.ttf);
+}
+
+div{
+	width: 500px;
+	border: solid 2px red;
+	margin: 50px auto;
+	padding: 50px;
+}
+
+div h1{
+	font-family: "fuente4", sans-serif;
+	font-size: 3rem;
+}
+
+div p{
+	font-family: "fuente3", sans-serif;
+	font-size: 1.2rem;
+}

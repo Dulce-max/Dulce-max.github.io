@@ -1,0 +1,24 @@
+body{
+	width: 90%;
+	margin: 50px auto;
+}
+
+section{
+	border: solid 2px red;
+}
+
+article{
+	width: 200px;
+	height: 100px;
+	background-color: gray;
+	border: solid 2px blue;
+}
+
+.flotante{
+	float: right;
+	background-color: sandybrown;
+}
+
+div{
+	clear: both;
+}
